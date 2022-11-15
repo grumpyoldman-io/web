@@ -27,6 +27,7 @@
         "buildTarget": "main:build",
         "dev": true
       },
+      "dependsOn": ["^build"],
       "configurations": {
         "development": {
           "buildTarget": "main:build:development",
